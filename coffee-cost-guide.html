@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2ea">
+  <meta name="description" content="Learn a simple way to calculate the cost of coffee at home, including beans, filters, milk, and equipment, then compare it with café spending.">
+  <meta property="og:title" content="How to calculate the cost of coffee at home — BrewBudget">
+  <meta property="og:description" content="A practical, adjustable method for estimating your home-brew cost per cup and comparing it with café coffee.">
+  <link rel="canonical" href="https://dev-huthaifah.github.io/brewbudget/coffee-cost-guide.html">
+  <title>How to calculate the cost of coffee at home — BrewBudget</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html" aria-label="BrewBudget home"><span class="brand-mark">b.</span><span>brew<span class="brand-light">budget</span></span></a><a class="top-link" href="index.html#calculator">Open the calculator <span aria-hidden="true">↗</span></a></header>
+  <main class="article-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Cost guide</span></nav>
+    <article class="article-content">
+      <header class="article-header"><div class="eyebrow">A PRACTICAL COFFEE BUDGET GUIDE</div><h1>How much does your coffee cost at home?</h1><p class="article-deck">A useful comparison starts with what you actually pay for beans and the way you brew. Here’s a simple method you can adjust to your cup, equipment, and currency.</p></header>
+      <div class="article-callout"><strong>Quick formula</strong><p><b>Cost per cup = beans + filters + water + energy + extras</b></p><p>For beans, divide the bag price by the number of cups you can make from that bag. Add equipment separately if you want to include it.</p></div>
+      <h2>1. Work out the bean cost for one cup</h2>
+      <p>Check the weight and price of your coffee bag, then decide how many grams you use for one drink. Divide the bag weight by your dose to estimate how many cups it makes. Divide the bag price by that cup count.</p>
+      <div class="article-example"><span class="eyebrow">ILLUSTRATIVE EXAMPLE</span><p>A 250 g bag costs 18 currency units. If you use 18 g per cup, the bag makes about 13.9 cups. The beans cost about <b>1.30 units per cup</b> (18 ÷ 13.9). This example is only arithmetic; your bag price and recipe may be different.</p></div>
+      <p>A scale makes the estimate more consistent, but you can also use your usual scoop and measure the bag’s servings over a few brews. Espresso, filter, and batch coffee use different amounts, so use the amount that matches your routine.</p>
+      <h2>2. Add the costs you want to count</h2>
+      <p>Beans are the main recurring cost for many people, but they are not the whole cup. Add any costs that matter to your comparison:</p>
+      <ul><li><b>Filters:</b> divide the price of a pack by the number of filters you use.</li><li><b>Milk, syrups, or other additions:</b> estimate the amount used in one drink.</li><li><b>Water and energy:</b> include them if you track household costs closely.</li><li><b>Waste:</b> account for beans or milk that are regularly discarded.</li></ul>
+      <p>Keep the estimate consistent. If your café price includes milk but your home estimate does not, add the home ingredients too for a fairer comparison.</p>
+      <h2>3. Decide how to treat equipment</h2>
+      <p>A grinder, kettle, brewer, or espresso machine is usually an upfront purchase. You can leave equipment out when comparing only recurring costs, or spread its price across the cups you expect to make before replacing it.</p>
+      <p><b>Equipment cost per cup = equipment price ÷ expected cups made</b></p>
+      <p>For example, if a brewer costs 60 units and you expect to make 600 cups with it, that is 0.10 units per cup. The result depends on your own estimate of how long the equipment will last.</p>
+      <h2>4. Compare like with like</h2>
+      <p>Use the same number of drinks and the same time period for both options. A simple weekly café estimate is:</p>
+      <div class="formula"><span>Weekly café spend</span><b>cups per day × café price × days per week</b><span>Yearly home-brew cost</span><b>home cost per cup × cups per day × days per week × 52</b></div>
+      <p>The comparison is an estimate, not a promise that home brewing will save money. Equipment, changing prices, travel, taxes, and changes in your routine can change the result.</p>
+      <h2>5. Try your own numbers</h2>
+      <p>Choose USD, GBP, CAD, or AUD in the calculator and enter café and home-brew prices in that currency. BrewBudget does not convert between currencies, so keep all the prices in the same one.</p>
+      <a class="article-cta" href="index.html#calculator">Calculate my coffee costs <span aria-hidden="true">↗</span></a>
+      <section class="faq-list" aria-labelledby="faq-title"><h2 id="faq-title">Common questions</h2><h3>Should I include my coffee machine?</h3><p>That depends on the comparison you want. Leave it out to compare recurring cup costs, or divide its price by your estimated lifetime number of cups to include an equipment cost.</p><h3>What should count as one cup?</h3><p>Use one drink as you normally make or buy it. A café drink and a home serving can differ in size, so note that if it affects your comparison.</p><h3>Does BrewBudget use a live exchange rate?</h3><p>No. The currency selector only changes the currency label and formatting. Enter all café and home prices in the same selected currency.</p></section>
+    </article>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">b.</span><span>brew<span class="brand-light">budget</span></span></a><span>Thoughtful cups. Clearer numbers.</span><span>© <span id="year"></span> BrewBudget</span><a href="privacy.html">Privacy</a></footer>
+  <script>document.querySelector('#year').textContent=new Date().getFullYear()</script>
+</body>
+</html>

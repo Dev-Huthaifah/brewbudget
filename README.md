@@ -1,6 +1,6 @@
 # BrewBudget
 
-BrewBudget is a lightweight coffee spending calculator. Visitors can compare their café habit with an at-home brew estimate and see weekly, monthly, and yearly totals.
+BrewBudget is a lightweight coffee spending calculator and practical guide. Visitors can compare café coffee with a home-brew estimate, use USD, GBP, CAD, or AUD, and see weekly, monthly, and yearly totals.
 
 ## Run locally
 
@@ -24,10 +24,11 @@ The page includes clearly marked placements for a display ad and coffee gear par
 ## Files
 
 - `index.html` — app and page content
+- `coffee-cost-guide.html` — original guide to estimating home-brew costs
 - `styles.css` — responsive styling
 - `app.js` — calculator logic
 - `privacy.html` — starter privacy notice for the current no-tracking version
 
 ## Notes
 
-This is an informational budgeting tool, not financial advice. Currency is currently USD and the at-home estimate uses $1 per cup; visitors can adjust café price, cups, and days to fit their routine.
+This is an informational budgeting tool, not financial advice. Currency is currently USD. Visitors can adjust café price, home-brew cost per cup, cups, and days to fit their routine. The estimate excludes equipment, milk, taxes, travel, waste, and changes in routine.
