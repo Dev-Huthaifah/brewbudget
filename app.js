@@ -56,7 +56,7 @@ document.querySelector('#shareEstimate').addEventListener('click', async () => {
   const status = document.querySelector('#shareStatus');
   const shareData = {
     title: 'My BrewBudget coffee estimate',
-    text: `My café coffee costs about ${document.querySelector('#annualTotal').textContent} See your estimate:`,
+    text: `My café coffee costs about ${document.querySelector('#annualTotal').textContent} a year. Compare your estimate:`,
     url: url.toString()
   };
   try {

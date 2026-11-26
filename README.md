@@ -33,4 +33,4 @@ The page includes clearly marked placements for a display ad and coffee gear par
 
 ## Notes
 
-This is an informational budgeting tool, not financial advice. Currency is currently USD. Visitors can adjust café price, home-brew cost per cup, cups, and days to fit their routine. The estimate excludes equipment, milk, taxes, travel, waste, and changes in routine.
+This is an informational budgeting tool, not financial advice. USD is the default; visitors can choose USD, GBP, CAD, or AUD. The calculator formats values in the chosen currency and does not convert them. Visitors can adjust café price, home-brew cost per cup, cups, and days to fit their routine. The estimate excludes equipment, milk, taxes, travel, waste, and changes in routine.
