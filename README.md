@@ -2,6 +2,8 @@
 
 BrewBudget is a lightweight coffee spending calculator and practical guide. Visitors can compare café coffee with a home-brew estimate, use USD, GBP, CAD, or AUD, and see weekly, monthly, and yearly totals.
 
+The English-language site is aimed at coffee drinkers in the United States, United Kingdom, Canada, and Australia. Prices are formatted in the selected currency; the calculator does not convert between currencies.
+
 ## Run locally
 
 Open `index.html` in a browser. The app is static and has no build step, server, cookies, accounts, or analytics.
